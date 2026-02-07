@@ -489,7 +489,7 @@ AuthorizedKeysFile      /etc/openssh/authorized_keys/%u /etc/openssh/authorized_
 ssh-keygen
 ssh-copy-id root@cli.au.team
 ```
-Все кайф. Подготовку сделали.
+Подготовку сделали.
 Теперь перейдем к `Ansible`
 ```bash
 apt-get install ansible
@@ -555,7 +555,7 @@ anisble exam_group -m ping
 ansible-playbook playbook_mount_nfs.yml
 ansible-playbook playbook_unmount_nfs.yml
 ``` 
-Все - кайф
+
 
 #### 6) Remote acces
 Цель: с компьютера `ADMIN-PC` подключиться по `RDP` к компьютеру `CLI` под пользователем `remote`
