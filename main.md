@@ -215,7 +215,7 @@ apt-get install samba samba-dc krb5-workstation
 10.10.10.100 l-srv.au.team l-srv
 ```
 
-⁉️ На сервере (Alt-Server) какая-то хуйня с адресами серверов в резолвере. поэтому перейдем в `/etc/systemd/resolved.conf`
+⁉️ На сервере (Alt-Server) какая-то фигня с адресами серверов в резолвере. поэтому перейдем в `/etc/systemd/resolved.conf`
 ```bash
 # `/etc/systemd/resolved.conf`
 [Resolve]
