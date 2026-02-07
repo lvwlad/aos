@@ -301,7 +301,7 @@ apt-get update && apt-get install -y task-auth-ad-sssd
 visudo
 ```
 Далее перейдем в `/etc/sudoers.d`
-Создадим два файла для наших групп
+Создадим два файла для наших групп (❗ пока не разобрался, это не работает)
 ```bash
 echo "%AU\left ALL=(ALL) /bin/cat" > left
 echo "%AU\admin ALL=(ALL) ALL" > admin
