@@ -1,4 +1,4 @@
-###Настройка маскарадинга 
+### Настройка маскарадинга 
 
 ```bash
 #cd /etc/sysconfig/iptables
@@ -62,6 +62,7 @@ users,username=smb-mount,password='P@ssw0rd',file_mode=0666,dir_mode=0777
 	guest ok = yes
 	create mask = 0666
 	directory mask = 0777
+
 
 
 
